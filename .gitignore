@@ -3,3 +3,4 @@ server/www/images.json
 node_modules
 *.iml
 *.idea
+venv
