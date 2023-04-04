@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Similar Images</title>
+    <script type="module" src="import.js"></script>
+    <style>
+        html {
+            background: #333;
+            color: #fff
+        }
+        .sd-image {
+            max-width: 300px;
+            max-height: 300px;
+        }
+        .row {
+            display: flex;
+            margin-bottom: 1em;
+            padding-bottom: 1em;
+            border-bottom: 1px solid #fff
+        }
+        #results > .row:last-child {
+            border-bottom: none;
+        }
+        .original {
+            margin-right: 1em;
+            padding-right: 1em;
+            border-right: 1px solid #fff;
+        }
+        .similar {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .similar-img {
+            padding-right: 1em;
+        }
+        .same {
+            color: #777;
+        }
+        .del {
+            color: #b00;
+        }
+        .ins {
+            color: #0b0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="results">Loading...</div>
+
+</body>
+</html>
